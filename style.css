@@ -1,0 +1,71 @@
+/* Reset some default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the entire body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Use a common font for text */
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* White text color for the header */
+    padding: 10px 0; /* Add some vertical padding */
+  }
+  
+  /* Style the navigation menu */
+  #navigation ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    display: inline-block; /* Make the list items appear horizontally */
+    margin-right: 20px; /* Add some spacing between list items */
+  }
+  
+  /* Style the navigation menu items */
+  #navigation ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add some spacing between list items */
+  }
+  
+  /* Style the logo */
+  .Logo {
+    float: left; /* Float the logo to the left */
+  }
+  
+  /* Style the main picture */
+  .mainpic img {
+    width: 100%; /* Make the image fill the container */
+    display: block; /* Remove any extra spacing around the image */
+  }
+  
+  /* Center align the buttons */
+  .buttons {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing from the main content */
+  }
+  
+  /* Style the buttons */
+  .buttons button {
+    padding: 10px 20px; /* Add some padding to the buttons */
+    background-color: #333; /* Dark background color for the buttons */
+    color: #fff; /* White text color for the buttons */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin: 5px; /* Add some spacing between buttons */
+  }
+  
+  /* Style the buttons on hover */
+  .buttons button:hover {
+    background-color: #555; /* Darken the background color on hover */
+  }
+  
