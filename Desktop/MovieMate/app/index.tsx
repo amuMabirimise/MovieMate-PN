@@ -14,7 +14,7 @@ import Navbar from "../components/Navbar";
 import axios from "axios";
 import { useNavigation } from "expo-router";
 
-const TMDB_API_KEY = "5138aa4ab2cae3c208f8a6aa6afe4e63"; // Replace with your TMDB API key
+const TMDB_API_KEY = "5138aa4ab2cae3c208f8a6aa6afe4e63";
 const BASE_URL = "https://api.themoviedb.org/3/";
 const { width } = Dimensions.get("window");
 
