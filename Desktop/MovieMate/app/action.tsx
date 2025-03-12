@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "expo-router";
 
-const TMDB_API_KEY = "5138aa4ab2cae3c208f8a6aa6afe4e63"; // Your API Key
+const TMDB_API_KEY = "5138aa4ab2cae3c208f8a6aa6afe4e63";
 const { width } = Dimensions.get("window"); // Get screen width
 
 export default function ActionScreen() {
